@@ -161,6 +161,12 @@ public class NEIGTNewHorizonsConfig implements IConfigureNEI {
             API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "ovenon", 1));
             API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "churnon", 1));
             API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "quernon", 1));
+
+            API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "apiary", 1));
+            API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "presser", 1));
+            API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "oven", 1));
+            API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "churn", 1));
+            API.hideItem(GT_ModHandler.getModItem(PamsHarvestCraft.ID, "quern", 1));
         }
         if (MalisisDoors.isModLoaded()) {
             API.hideItem(GT_ModHandler.getModItem(MalisisDoors.ID, "null", 1));
